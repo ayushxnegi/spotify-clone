@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: wheat;
+  height: 100vh;
+}
+nav ul {
+  /* margin: 10px; */
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+}
+nav ul li {
+  margin-top: 20px;
+  display: flex;
+  /* background-color: red; */
+}
+#spotify_li {
+  height: 40px;
+  /* width: 35px; */
+}
+#spotify_logo {
+  height: 40px;
+  margin-left: 30px;
+
+  /* background-color: blue; */
+
+  /* width: 35px; */
+  filter: grayscale(100%);
+}
+#home {
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  /* width: 50px;
+    height: 50px; */
+}
+#home i {
+  padding: 15px;
+  font-size: 20px;
+  color: #b3b3b3;
+}
+.colour {
+  background-color: red;
+}
+#center_nav {
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+  /* background: rebeccapurple; */
+  gap: 5px;
+}
+#searchbar {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #1f1f1f;
+  padding-left: 15px;
+  border: 2px solid white;
+}
+
+#searchbar i {
+  color: #b3b3b3;
+  font-size: 23px;
+  width: 40px;
+}
+#fname {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px 30px 30px 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+#fname:hover {
+  border: none;
+}
+.top_botton {
+  width: 90px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: none;
+}
+#sign_up {
+  background-color: transparent;
+  color: white;
+}
+#mian_box {
+  display: flex;
+  /* height: 87%; */
+  padding: 10px;
+  /* background-color: red;? */
+}
+.sub_box {
+  /* border: 2px solid white; */
+  margin: 1px;
+  border-radius: 10px;
+  background-color: #121212;
+  height: 78vh;
+  padding: 7px;
+}
+#left_box {
+  width: 27%;
+
+
+}
+#right_box {
+  width: 73%;
+  /* height: 577px; */
+  overflow-y: scroll;
+  margin-left: 10px;
+}
+#library {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  /* margin: 20px; */
+}
+#library_div {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  align-items: center;
+color: #ffffff;
+  gap: 15px;
+  padding: 15px;
+}
+#library div i {
+  font-size: 30px;
+}
+#library_div div {
+  font-size: 19px;
+}
+#library_button{
+height: 50px;
+width: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+display: flex;
+align-content: start;
+justify-content:center;
+ border: none;
+ background-color: transparent;
+ color: white;
+}
+#library_button:hover {
+  background-color: #1f1f1f;
+}
+#left_card_contaner{
+  margin-top: 20px;
+}
+.left_box_card_class{
+background-color: #1F1F1F;
+width: 100%;
+margin-top: 5px;
+color: white;
+padding: 15px 20px ;
+border-radius: 10px;
+}
+.left_box_card_class div{
+  line-height: 70%;
+}
+
+.left_card_1_p{
+  font-weight: 700;
+
+}
+.left_box_card_class button{
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  border: none;
+  font-weight: 700;
+}
+#left_box_card-2{
+margin-top: 20px;
+}
+#link_contaner{
+  margin-top: 30px;
+
+}
+#link_contaner a{
+  text-decoration: none;
+margin: 15px;
+font-size: 12px;
+color: white;
+}
+#Cookies{
+  text-decoration: none;
+color: white;
+margin: 15px;
+font-weight: 600;
+}
+#language_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 15px;
+  height: 35px;
+  width: 110px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+#language_button img{
+  height: 20px;
+  color: white;
+  margin-right: 5px;
+
+
+}
+.music_card{
+  /* background-color: #050b7a; */
+  height: 180px;
+width: 310px;
+  border-radius: 10px;
+overflow: hidden;
+
+}
+.music_card img{
+  height: 150px;
+position: relative;
+top: 30px;
+left: 150px;
+transform: rotate(35deg) translate(18%, -2%);
+border-radius: 5px;
+}
+
+.music_card1{
+  background-color: #050b7a ;
+}
+.music_card2{
+  background-color: #1D1A35;
+}
+.music_card3{
+  background-color: #800D0E;
+}
+.music_card4{
+  background-color: #AD0272;
+}
+.music_card5{
+  background-color:#2E373E ;
+}
+.music_card6{
+  background-color: #909285;
+}
+.music_card7{
+  background-color:#DA5757 ;
+}
+.music_card8{
+  background-color:#E5331D ;
+}
+.music_card9{
+  background-color:#1678B2 ;
+}
+#bottom_audio{
+  /* background-color: red; */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#progress_bar{
+  width: 1200px;
+  height: 20px;
+cursor: pointer;
+  /* background-color: yellow; */
+}
+#audio_controler i{
+  margin-right: 10px ;
+  font-size: 25px;
+  margin-top: 3px;
+  cursor: pointer;
+ 
+}
+
+.playsong{
+  border: 4px solid white;
+}
+.playsong2{
+  border: 4px solid rgb(208, 255, 0);
+}
+.bgcol{
+  background-color: red;
+}
